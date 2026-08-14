@@ -96,7 +96,6 @@ function startNewGame() {
   buildBoard();
   buildKeyboard();
   modalEl.classList.add("hidden");
-  console.log("Palavra (debug):", answer);
 }
 
 function updateRowDisplay() {
